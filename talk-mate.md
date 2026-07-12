@@ -6,6 +6,8 @@
 
 `gpt-realtime-mini` を使う、日本語のブラウザ音声相談Webアプリ。Python 3標準ライブラリだけで構成し、`python3 talk_mate.py` で起動する。音声ストリームはブラウザと OpenAI Realtime API の WebRTC 接続で直結し、Python サーバーは中継しない。
 
+リポジトリ: https://github.com/naokoni24/talk-mate.git （`main`）
+
 ## 実装済み
 
 - 単一ファイル `talk_mate.py`（`ThreadingHTTPServer`、既定ポート 8788）
