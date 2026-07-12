@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+talk_mate.db
+*.sqlite3
+.DS_Store
