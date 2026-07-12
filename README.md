@@ -24,6 +24,7 @@ python3 talk_mate.py
 | `COOKIE_SECRET` | 任意 | 署名 Cookie 用。未指定時は開発用の一時値 |
 | `MAX_SESSION_SECONDS` | 任意 | 1 通話の上限秒数（既定: 600） |
 | `DAILY_BUDGET_USD` | 任意 | 1 日の実測利用額上限（既定: 1.0） |
+| `USD_JPY_RATE` | 任意 | 日本円の概算表示に使うレート（既定: 160.0） |
 | `USER_TRANSCRIPT` | 任意 | `1` でユーザー音声の文字起こしを有効化（既定: 無効） |
 
 ## Render へのデプロイ
